@@ -1,0 +1,8 @@
+# Specify the base image
+FROM mcr.microsoft.com/powershell
+
+# Make sure the contents of our repo are in /app
+COPY . /app
+
+# Specify working directory
+WORKDIR /app

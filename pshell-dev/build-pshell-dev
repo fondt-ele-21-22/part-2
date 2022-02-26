@@ -1,0 +1,1 @@
+docker build -t local_powershell -f Dockerfile-pshell-dev .
